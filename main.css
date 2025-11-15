@@ -1,0 +1,102 @@
+  /* CSS Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f7f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #005f73;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h1, h2, h3 {
+      color: #0a9396;
+    }
+
+    /* Home Section */
+    #home {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #94d2bd;
+      color: #001219;
+      border-radius: 8px;
+    }
+
+    /* About and Education */
+    #about,#education {
+      background-color: #e9d8a6;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      object-fit: cover;
+    }
+
+    /* Skills */
+    #skills ul {
+      list-style-type: square;
+      padding-left: 1.2rem;
+    }
+
+    /* Projects */
+    #projects article {
+      background-color: #ee9b00;
+      color: #001219;
+      padding: 1rem 1.2rem;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+    }
+
+    /* Contact */
+    #contact {
+      background-color: #ca6702;
+      color: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    #contact a {
+      color: #fff;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      background-color: #005f73;
+      color: white;
+      margin-top: 3rem;
+    }
